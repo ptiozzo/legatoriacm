@@ -21,7 +21,7 @@ add_filter( 'script_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
 if ( ! function_exists( 'legatoriacm_styles_scripts' ) ) {
 	function legatoriacm_style_scripts() {
 		//wp_enqueue_style;
-		wp_enqueue_style( 'Montserrat','//fonts.googleapis.com/css?family=Montserrat&display=swap:300,400,700');
+		wp_enqueue_style( 'Montserrat','//fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
 		wp_enqueue_style( 'legtoriacm-css', get_template_directory_uri().'/style.css');
 		wp_enqueue_style( 'bootstrap-css', get_template_directory_uri().'/assets/css/bootstrap.min.css');
 
