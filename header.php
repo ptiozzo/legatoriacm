@@ -26,7 +26,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
-	<header class="p-3">
+	<header class="pt-3 bg-grigio-scuro">
 		<div class="container">
 			<nav class="navbar navbar-expand-xs justify-content-end">
 				<p class="text-white navbar-brand m-0 mr-2">Chiamaci: <span class="header_tel">011 336543</span></p>
@@ -45,6 +45,10 @@
 					]);
 				 ?>
 			</nav>
+		</div>
+	</header>
+	<header class="pb-3 sticky-top bg-grigio-scuro">
+		<div class="container">
 			<nav class="navbar navbar-expand-lg">
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipale" aria-controls="navbarPrincipale" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
