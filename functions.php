@@ -50,10 +50,21 @@ if ( ! function_exists( 'legatoriacm_setup' ) ) {
 		register_nav_menus( array(
 			'menu-principale' => esc_html__( 'Menu principale', 'legatoriacm' ),
 			'menu-social' => esc_html__( 'Menu social', 'legatoriacm' ),
+			'menu-footer' => esc_html__( 'Menu footer', 'legatoriacm' ),
 		) );
 	}
 }
 add_action( 'after_setup_theme', 'legatoriacm_setup' );
+
+
+/*  Register sidebars
+/* ------------------------------------ */
+if ( ! function_exists( 'legatoriacm_sidebars' ) ) {
+	function legatoriacm_sidebars()	{
+		register_sidebar(array( 'name' => esc_html__( 'Footer', 'icc' ),'id' => 'footer','description' => esc_html__( 'Area nel footer Centrale', 'legatoricm' ), 'before_widget' => '<div id="%1$s" class="widget %2$s">','after_widget' => '</div>','before_title' => '<h3>','after_title' => '</h3>'));
+	}
+}
+add_action( 'widgets_init', 'legatoriacm_sidebars' );
 
 require_once('assets/bs4navwalker.php');
 

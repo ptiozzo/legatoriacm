@@ -20,21 +20,39 @@ GENERAL
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
-  color: rgba(163, 216, 53, 1);
+p{margin-bottom: 0 !important;}
+
+.admin-bar header{
+  top: 32px;
 }
+
+.font-color-verde{color: #b2d03d;}
+.font-color-grigio{color: #636363;}
+.bg-verde{background-color: #b2d03d;}
+.bg-grigio-chiaro{background-color: rgb(245, 245, 245);}
+.bg-grigio-scuro{background-color: #636363;}
+.zindex-1{z-index: -1;}
+
 
 /*------------------
 HEADER
 ------------------*/
-header{
-  background-color: #636463;
-}
-
 .header_tel{
-  color: rgba(163, 216, 53, 1);
+  color: #b2d03d;
 }
 
 .nav-link{color: white; font-size: 18px;}
-.nav-link:hover{color: rgba(163, 216, 53, 1);}
-.nav-link.active{color: rgba(163, 216, 53, 1); text-decoration:underline;}
+.nav-link:hover{color: #b2d03d;}
+.nav-link.active{color: #b2d03d; text-decoration:underline; font-size: 18px;}
+
+/*------------------
+FOOTER
+------------------*/
+footer b,footer a{color: #b2d03d;}
+footer .lineaverde{border: 1px solid #b2d03d;}
+
+/*------------------
+PAGE
+------------------*/
+.text-white a{color: white;}
+.text-white a:hover{color: white;text-decoration: none;opacity: .6;}

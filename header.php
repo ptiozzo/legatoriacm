@@ -47,7 +47,7 @@
 			</nav>
 		</div>
 	</header>
-	<header class="pb-3 sticky-top bg-grigio-scuro">
+	<header class="p-3 sticky-top bg-grigio-scuro">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg">
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipale" aria-controls="navbarPrincipale" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,13 +63,13 @@
 				      'container_id'    => 'bs4navbar_principale',
 				      'container_class' => '',
 				      'menu_id'         => false,
-				      'menu_class'      => 'nav text-white',
+				      'menu_class'      => 'nav',
 				      'depth'           => 0,
 				      'fallback_cb'     => 'bs4navwalker::fallback',
 				      'walker'          => new bs4navwalker()
 				    ]);
 				   ?>
 			  </div>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	</header>
