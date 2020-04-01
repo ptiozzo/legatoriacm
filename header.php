@@ -49,7 +49,10 @@
 	</header>
 	<header class="p-3 sticky-top bg-grigio-scuro">
 		<div class="container">
-			<nav class="navbar navbar-expand-lg">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="/">
+    			<img src="<?php echo get_template_directory_uri();?>/assets/img/icona-libro-trasparente.png" alt="logo">
+  			</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipale" aria-controls="navbarPrincipale" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
